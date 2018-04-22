@@ -51,7 +51,7 @@ contract SmartTrading{
         else { return false;}
     }
     
-    function trade(string tokenA, string tokenB, uint amount, ) public onlyOwner {
+    function trade(string tokenA, string tokenB, uint amount) public onlyOwner {
         //Конвертирует amount токена A в токен B
     }
     
